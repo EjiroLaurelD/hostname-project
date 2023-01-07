@@ -41,7 +41,7 @@
                 </h2>
             </div>
         </div>
-        <p id="copyright">&copy; <?php echo date("Y"); ?> &bull; All Rights Reserved.</p>
+        <p id="copyright"> <strong>ELD</strong>&copy; <?php echo date("Y"); ?> &bull; All Rights Reserved.</p>
     </div>
 
 </body>
