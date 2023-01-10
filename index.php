@@ -17,17 +17,17 @@
 <body>
 
     <div id="wrapper">
-        <h1 id="pageTitle">AWS Server Information</h1>
+        <h1 id="pageTitle">My AWS Server Information</h1>
         <div class="twoColRow">
             <div class="serverStats">
                 <img src="./assets/server.png" alt="" class="icon">
                 <h2 class="statsValue">
                     <?php $serverName = gethostname();
-                    echo "$serverName"; ?>
+                    echo "IPV4: $serverName"; ?>
                 </h2>
             </div>
             <div class="serverStats">
-                <img src="./assets/clock.png" alt="" class="icon">
+                <img src="./assets/clock.jpeg" alt="" class="icon">
 		<h2 class="statsValue">
 
                     <?php
@@ -41,7 +41,7 @@
                 </h2>
             </div>
         </div>
-        <p id="copyright"> <strong>ELD</strong>&copy; <?php echo date("Y"); ?> &bull; All Rights Reserved.</p>
+        <p id="copyright"> <strong>ELD</strong> &copy; <?php echo date("Y"); ?> &bull; All Rights Reserved.</p>
     </div>
 
 </body>
