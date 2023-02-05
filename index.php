@@ -27,7 +27,7 @@
                 </h2>
             </div>
             <div class="serverStats">
-                <img src="./assets/clock.jpeg" alt="" class="icon">
+                <img src="./assets/clock.png" alt="" class="icon">
 		<h2 class="statsValue">
 
                     <?php
